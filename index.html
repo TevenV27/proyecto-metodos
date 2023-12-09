@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Método de Newton-Raphson</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="img/logo.png" alt="">
+
+        </div>
+        <div>
+            MéTODOS NUMÉRICOS - PROYECTO FINAL
+        </div>
+    </header>
+    <section>
+
+        <div class="container">
+            <div class="panel left-panel">
+                <h1>Método de Newton-Raphson</h1>
+                <input type="text" id="initialValue" placeholder="Valor inicial (x0)">
+                <button onclick="calculateRoot()">Calcular Raíz</button>
+                <div id="result"></div>
+                
+            </div>
+            <div class="panel right-panel ">
+                <h2>Procedimiento</h2>
+                <div id="procedure"></div>
+            </div>
+            <div class="panel three-panel">
+                <canvas id="myChart" width="400" height="400"></canvas>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer>
+        Carlos Delgado - Gengis Hidalgo - Jesus Gil - Sergio Estrada - Steven Victoria 
+    </footer>
+    
+    <script src="newtonRaphson.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
